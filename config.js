@@ -1,18 +1,16 @@
 module.exports = {
-	master: false,
+	master: true,
 	port: 5000,
-	workers: 2,
-	scrapeTime: '00 00 3,15 * * *',
-	scrapeTtl: 1000 * 60 * 60 * 10,
+	workers: 15,
+	scrapeTime: '00 00 * * * *',
+	scrapeTtl: 1000 * 60 * 60 * 8,
 	pageSize: 50,
+	serverName: 'PopcornTime-CE EZTV API',
+	tempDir: './tmp',
+	traktKey: '3453022bc9c2cb4fe6c097f23729e46ace9e06dfbbb66f9ca17588b612a2dfc2',
+	//traktKey: '70c43f8f4c0de74a33ac1e66b6067f11d14ad13e33cd4ebd08860ba8be014907',
 	dbHosts: [
-		'fr.ptnet',
-		'us-chi.ptnet',
-		'us-mia.ptnet',
-		'us-dal.ptnet',
-		'za.ptnet',
-		'br.ptnet',
-		'uk.ptnet',
+		'localhost'
 	],
 	map: {
 		'louie': 'louie-2010',
@@ -33,6 +31,12 @@ module.exports = {
 		'legit': 'legit-2013',
 		'power-2014': 'power',
 		'scandal-us': 'scandal-2012',
-		'reign': 'reign-2013'
+		'reign': 'reign-2013',
+		'10-oclock-live': '10-o-clock-live',
+		'marvels-agent-carter': 'marvel-s-agent-carter',
+		'marvels-agents-of-shield': 'marvel-s-agents-of-s-h-i-e-l-d',
+		'marvels-avengers-assemble': 'marvel-s-avengers-assemble',
+		'marvels-daredevil': 'marvel-s-daredevil',
+		'marvels-guardians-of-the-galaxy': 'marvel-s-guardians-of-the-galaxy'
 	}
-}
+};
