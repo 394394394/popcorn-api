@@ -1,5 +1,5 @@
 {
-  "name": "poporn-api",
+  "name": "popcorn-api",
   "version": "1.0.4",
   "dependencies": {
     "urijs": "^1.14.1",
