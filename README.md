@@ -1,7 +1,7 @@
 Popcorn API
 =========
 
-Popcorn Time API is developed to make it easier for anyone to create their own versions of [Popcorn Time](http://popcorntime.sh). It contains:
+Popcorn Time API is developed to make it easier for anyone to create their own versions of [Popcorn Time](https://popcorntime.sh). It contains:
 
   - Metdata about TV Shows and individual episodes (taken from Trakt)
   - Multiple quality magnet links for every episode
@@ -16,7 +16,7 @@ The API contains the following 'routes' which produce the example output
 
 **Example**
 
-`http://eztvapi.ml/show/tt1475582` returns the following:
+`https://eztvapi.ml/show/tt1475582` returns the following:
 
 ```
 {
@@ -97,7 +97,7 @@ The API contains the following 'routes' which produce the example output
 
 **Example**
 
-`http://eztvapi.ml/shows/1`
+`https://eztvapi.ml/shows/1`
 
 ```
 [
