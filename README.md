@@ -1,10 +1,10 @@
 Popcorn API
 =========
 
-Popcorn Time API is developed to make it easier for anyone to create their own versions of [Popcorn Time](http://popcorntime.io). It contains:
+Popcorn Time API is developed to make it easier for anyone to create their own versions of [Popcorn Time](http://popcorntime.sh). It contains:
 
   - Metdata about TV Shows and individual episodes (taken from Trakt)
-  - Multiple quality magnet links for every episode 
+  - Multiple quality magnet links for every episode
   - Ability to easily filter content to the users' content
 
 Routes
@@ -16,7 +16,7 @@ The API contains the following 'routes' which produce the example output
 
 **Example**
 
-`http://eztvapi.re/show/tt1475582` returns the following:
+`http://eztvapi.ml/show/tt1475582` returns the following:
 
 ```
 {
@@ -97,7 +97,7 @@ The API contains the following 'routes' which produce the example output
 
 **Example**
 
-`http://eztvapi.re/shows/1`
+`http://eztvapi.ml/shows/1`
 
 ```
 [
@@ -175,7 +175,7 @@ Possible options are
 - Name (Sort by TV Show title)
 - Year (Year the TV Show first aired)
 - Updated (Sort by the most recently aired episode date)
- 
+
 You can change the order of the sort by adding `&order=1` or `&order=-1` to the query string
 
 **Filtering**

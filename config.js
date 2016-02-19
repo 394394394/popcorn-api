@@ -1,14 +1,13 @@
 module.exports = {
-	master: true,
+	master: false,
 	port: 5000,
-	workers: 15,
+	workers: 2,
 	scrapeTime: '00 00 * * * *',
-	scrapeTtl: 1000 * 60 * 60 * 8,
+	scrapeTtl: 1000 * 60 * 60 * 10,
 	pageSize: 50,
-	serverName: 'PopcornTime-CE EZTV API',
+	serverName: 'PopcornTime EZTV API',
 	tempDir: './tmp',
-	traktKey: '3453022bc9c2cb4fe6c097f23729e46ace9e06dfbbb66f9ca17588b612a2dfc2',
-	//traktKey: '70c43f8f4c0de74a33ac1e66b6067f11d14ad13e33cd4ebd08860ba8be014907',
+	traktKey: '70c43f8f4c0de74a33ac1e66b6067f11d14ad13e33cd4ebd08860ba8be014907',
 	dbHosts: [
 		'localhost'
 	],
