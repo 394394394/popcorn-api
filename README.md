@@ -3,7 +3,7 @@ Popcorn API
 
 Popcorn Time API is developed to make it easier for anyone to create their own versions of [Popcorn Time](https://popcorntime.sh). It contains:
 
-  - Metdata about TV Shows and individual episodes (taken from Trakt)
+  - Metadata about TV Shows and individual episodes (taken from Trakt)
   - Multiple quality magnet links for every episode
   - Ability to easily filter content to the users' content
 
@@ -167,7 +167,7 @@ The API contains the following 'routes' which produce the example output
 
 **Sorting**
 
-This route can be sorting and filtered with the following `query string
+This route can be sorted and filtered with the following query string
 
 `?sort=`
 
